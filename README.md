@@ -46,3 +46,4 @@ If the app is running correctly, you should get the following response in conten
 1) Extract only the relevant sentences from main_text as evidence (the sentences which closely match with the claim text) along with claim text.
 2) Or Try extractive or abstractive summaries for main_text field and use that as input along with the claim text.
 3) Train the model for more epochs. Increase the batch size to 16 or 32 is sufficient gpu memory is available.
+4) Try using T5, or pegasus model ( which is trained to extract important sentences for a text) with a suitable classification head as the base models for fine tuning.
