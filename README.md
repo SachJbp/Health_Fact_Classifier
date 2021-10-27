@@ -8,6 +8,8 @@ Output: Label (true, false, unproven, mixture)
 The model has been fine tuned on google colab with a single gpu. To avoid the cuda memory issues the batch size used is 1. Also, to avoid running into colab timeout issues I have trained 1-3 epochs at one go to have a total of 12 epochs of training.
 The notebook describes the training code.
 
+*Note: The training code expects train, dev, test folders inside PUBHEALTH folder having respective data.tsv files inside them* 
+
 ## Results:
 Train accuracy: 91.4%
 Validation accuracy: 78.0%
