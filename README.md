@@ -14,7 +14,7 @@ The notebook describes the training code.
 ## Results:
 Train accuracy: 91.4%
 Validation accuracy: 78.0%
-Test Accuracy: 76.4 %
+Test Accuracy: 76.4 %, Average F1 score: 0.77
 
 The trained model can be accessed using the Python application:
 
