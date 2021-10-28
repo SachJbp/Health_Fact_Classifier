@@ -3,6 +3,7 @@
 We fine tuned the `Longformer-base-4096` model from Huggingface for a classification task on Health fact dataset. 
 
 Input : Main_text, Claim
+
 Output: Label (true, false, unproven, mixture) 
 
 The model has been fine tuned on google colab with a single gpu. To avoid the cuda memory issues the batch size used is 1. Also, to avoid running into colab timeout issues I have trained 1-3 epochs at one go to have a total of 12 epochs of training.
